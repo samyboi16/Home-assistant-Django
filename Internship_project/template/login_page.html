@@ -1,0 +1,27 @@
+{%load static%}
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'csstyle.css' %}">
+</head>
+<body>
+<center><h2>Login</h2></center>
+<center>
+  <form action="" method="post">
+    {% csrf_token %}
+    <div class="imgcontainer">
+        <img src="{%static 'avatar.jpg' %}" alt="Avatar" class="avatar">
+      </div>
+        <div class="container">
+          <p style="color: black;"><b>Usernames</b></p>
+          <input type="text" placeholder="Enter Username" name="Usernames" required>
+          <br><br>
+          <p style="color: black;"><b>Password</b></p>
+          <input type="password" placeholder="Enter Password" name="Passwords" required>
+          <br><br>
+          <button type="submit">Login</button>      
+        </div>
+  </form>
+</center>
+</body>
+</html>

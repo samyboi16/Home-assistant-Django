@@ -1,0 +1,39 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'apps.css' %}">
+    <title>Smart TV controls</title>
+    <script>
+        document.getElementById(".toggle input").addEventListener("change", function() {
+            var hiddenText = document.getElementById("hiddentext");
+            if (this.checked) {
+              hiddenText.style.display = "block";
+            } else {
+              hiddenText.style.display = "none";
+            }
+          });
+        </script>
+</head>
+<body>
+      <center>
+        Smart TV status:<br><br>
+        <label class="toggle">
+            <input type="checkbox">
+            <span class="slider"></span>
+            <span class="labels" data-on="ON" data-off="OFF"></span>
+        </label>
+        <br><br>
+        <p id="hiddentext">
+        <label for="cars">Choose TV channel:</label>
+        <select name="cars" id="cars">
+            <option value="Fox news">Fox news</option>
+            <option value="HBO">HBO</option>
+            <option value="Star Sports">Star Sports</option>
+            <option value="TLC">TLC</option>
+        </select>
+    </p>
+    
+    </center>  
+</body>
+</html>

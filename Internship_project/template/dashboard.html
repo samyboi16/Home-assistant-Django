@@ -1,0 +1,44 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'csstyle2.css' %}">
+    <title>Your DashBoard</title>
+</head>
+<body>
+
+    <div class="imgcontainer">
+        <a href="http://127.0.0.1:8000/user">
+            <img src="{%static 'avatar.jpg' %}" class="avatar" style="padding-block: 5%;">
+        </a>
+    </div>
+    <h1 style="text-align: left;font-size: 39px;">Welcome, Sameer!</h1>
+    <div class="underline"></div> 
+    <h1>Welcome to Your Home Assistant</h1>
+    <p>Click on an icon to perform an action:</p>
+    <div class="image-container">
+        <a href="http://127.0.0.1:8000/cctv">
+            <img class="icon" src="{% static 'cctv.png' %}" alt="Icon 1">
+        </a>
+        <p class="inline-p">Check CCTV</p>
+    </div>
+    <div class="image-container">
+        <a href="http://127.0.0.1:8000/smart_tv">
+            <img class="icon" src="{%static 'smarty.png'%}" alt="Icon 2" style="padding-left: 5%;">
+        </a>
+        <p class="inline-p">Turn On smart TV</p>
+    </div>
+    <div class="image-container">
+    <a href="http://127.0.0.1:8000/door">
+        <img class="icon" src="{%static 'door.png' %}" alt="Icon 3">
+    </a>
+        <p>Check the Doors</p>
+    </div>
+        
+    
+    
+    
+    
+    
+</body>
+</html>

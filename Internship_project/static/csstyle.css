@@ -1,0 +1,40 @@
+body {font-family: 'Product sans';
+  background-color: #cdd3ff}
+form {border: 3px solid #cdd3ff;}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #cdd3ff;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: #cdd3ff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}

@@ -1,0 +1,65 @@
+body {font-family: 'Product Sans';
+    font-size: larger;
+    text-align: center;
+    background-color: 	#cdd3ff ;
+}
+    
+  .separator {
+    border-left: 1px solid #04AA6D;
+    height: 300px; /* Adjust the height as needed */
+    margin: 0 20px; /* Adjust the margin as needed */
+  }
+  
+  img {
+    width: 12%;
+    height: 24%;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  h1{font-size: larger;}
+  
+  .image-container {
+      display: inline-block;
+      text-align: center;
+      margin: 10px; /* Adjust the margin as needed for spacing */
+  }
+  .image-container img {
+      max-width: 100%;
+      width: 200px; /* Adjust the width as needed */
+      height: auto;
+  }
+  .image-caption {
+      font-style: italic;
+  }
+  .separator {
+    position: fixed;
+    border-left: 10px solid #fff0ff;
+    height: 300px; /* Adjust the height as needed */
+    margin-left: 75px; /* Adjust the margin as needed */
+    z-index: -1;
+      }
+    .underline{
+      border: 5px solid #fff0ff;
+      height: auto;
+    }
+    .right-aligned-image {
+      float: right; /* Align the image to the right */
+      margin-left: 10px; /* Add some margin for spacing */
+      width: 5%;
+      height: auto;
+    }
+    .settings{
+      width: 40px;
+      height: auto;
+    }
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+      }
+      
+    img.avatar {
+      width: 102px;
+      border-radius: 50%;
+      float: right;
+      }
